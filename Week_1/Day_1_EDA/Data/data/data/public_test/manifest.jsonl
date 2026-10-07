@@ -1,0 +1,100 @@
+{"id": "B-public-00000", "image_paths": ["images/B-public-00000_p01.jpg"], "ocr_path": "ocr/B-public-00000.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00001", "image_paths": ["images/B-public-00001_p01.jpg"], "ocr_path": "ocr/B-public-00001.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00002", "image_paths": ["images/B-public-00002_p01.jpg"], "ocr_path": "ocr/B-public-00002.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00003", "image_paths": ["images/B-public-00003_p01.jpg"], "ocr_path": "ocr/B-public-00003.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00004", "image_paths": ["images/B-public-00004_p01.jpg"], "ocr_path": "ocr/B-public-00004.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00005", "image_paths": ["images/B-public-00005_p01.jpg"], "ocr_path": "ocr/B-public-00005.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00006", "image_paths": ["images/B-public-00006_p01.jpg"], "ocr_path": "ocr/B-public-00006.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00007", "image_paths": ["images/B-public-00007_p01.jpg"], "ocr_path": "ocr/B-public-00007.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00008", "image_paths": ["images/B-public-00008_p01.jpg"], "ocr_path": "ocr/B-public-00008.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00009", "image_paths": ["images/B-public-00009_p01.jpg"], "ocr_path": "ocr/B-public-00009.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00010", "image_paths": ["images/B-public-00010_p01.jpg"], "ocr_path": "ocr/B-public-00010.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00011", "image_paths": ["images/B-public-00011_p01.jpg"], "ocr_path": "ocr/B-public-00011.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00012", "image_paths": ["images/B-public-00012_p01.jpg"], "ocr_path": "ocr/B-public-00012.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00013", "image_paths": ["images/B-public-00013_p01.jpg", "images/B-public-00013_p02.jpg"], "ocr_path": "ocr/B-public-00013.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00014", "image_paths": ["images/B-public-00014_p01.jpg"], "ocr_path": "ocr/B-public-00014.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00015", "image_paths": ["images/B-public-00015_p01.jpg"], "ocr_path": "ocr/B-public-00015.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00016", "image_paths": ["images/B-public-00016_p01.jpg"], "ocr_path": "ocr/B-public-00016.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00017", "image_paths": ["images/B-public-00017_p01.jpg"], "ocr_path": "ocr/B-public-00017.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00018", "image_paths": ["images/B-public-00018_p01.jpg"], "ocr_path": "ocr/B-public-00018.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00019", "image_paths": ["images/B-public-00019_p01.jpg"], "ocr_path": "ocr/B-public-00019.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00020", "image_paths": ["images/B-public-00020_p01.jpg"], "ocr_path": "ocr/B-public-00020.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00021", "image_paths": ["images/B-public-00021_p01.jpg"], "ocr_path": "ocr/B-public-00021.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00022", "image_paths": ["images/B-public-00022_p01.jpg"], "ocr_path": "ocr/B-public-00022.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00023", "image_paths": ["images/B-public-00023_p01.jpg"], "ocr_path": "ocr/B-public-00023.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00024", "image_paths": ["images/B-public-00024_p01.jpg"], "ocr_path": "ocr/B-public-00024.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00025", "image_paths": ["images/B-public-00025_p01.jpg"], "ocr_path": "ocr/B-public-00025.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00026", "image_paths": ["images/B-public-00026_p01.jpg"], "ocr_path": "ocr/B-public-00026.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00027", "image_paths": ["images/B-public-00027_p01.jpg"], "ocr_path": "ocr/B-public-00027.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00028", "image_paths": ["images/B-public-00028_p01.jpg"], "ocr_path": "ocr/B-public-00028.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00029", "image_paths": ["images/B-public-00029_p01.jpg"], "ocr_path": "ocr/B-public-00029.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00030", "image_paths": ["images/B-public-00030_p01.jpg"], "ocr_path": "ocr/B-public-00030.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00031", "image_paths": ["images/B-public-00031_p01.jpg"], "ocr_path": "ocr/B-public-00031.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00032", "image_paths": ["images/B-public-00032_p01.jpg"], "ocr_path": "ocr/B-public-00032.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00033", "image_paths": ["images/B-public-00033_p01.jpg"], "ocr_path": "ocr/B-public-00033.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00034", "image_paths": ["images/B-public-00034_p01.jpg"], "ocr_path": "ocr/B-public-00034.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00035", "image_paths": ["images/B-public-00035_p01.jpg", "images/B-public-00035_p02.jpg"], "ocr_path": "ocr/B-public-00035.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00036", "image_paths": ["images/B-public-00036_p01.jpg"], "ocr_path": "ocr/B-public-00036.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00037", "image_paths": ["images/B-public-00037_p01.jpg"], "ocr_path": "ocr/B-public-00037.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00038", "image_paths": ["images/B-public-00038_p01.jpg"], "ocr_path": "ocr/B-public-00038.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00039", "image_paths": ["images/B-public-00039_p01.jpg"], "ocr_path": "ocr/B-public-00039.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00040", "image_paths": ["images/B-public-00040_p01.jpg", "images/B-public-00040_p02.jpg"], "ocr_path": "ocr/B-public-00040.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00041", "image_paths": ["images/B-public-00041_p01.jpg"], "ocr_path": "ocr/B-public-00041.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00042", "image_paths": ["images/B-public-00042_p01.jpg"], "ocr_path": "ocr/B-public-00042.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00043", "image_paths": ["images/B-public-00043_p01.jpg"], "ocr_path": "ocr/B-public-00043.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00044", "image_paths": ["images/B-public-00044_p01.jpg"], "ocr_path": "ocr/B-public-00044.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00045", "image_paths": ["images/B-public-00045_p01.jpg", "images/B-public-00045_p02.jpg"], "ocr_path": "ocr/B-public-00045.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00046", "image_paths": ["images/B-public-00046_p01.jpg"], "ocr_path": "ocr/B-public-00046.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00047", "image_paths": ["images/B-public-00047_p01.jpg"], "ocr_path": "ocr/B-public-00047.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00048", "image_paths": ["images/B-public-00048_p01.jpg"], "ocr_path": "ocr/B-public-00048.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00049", "image_paths": ["images/B-public-00049_p01.jpg"], "ocr_path": "ocr/B-public-00049.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00050", "image_paths": ["images/B-public-00050_p01.jpg", "images/B-public-00050_p02.jpg"], "ocr_path": "ocr/B-public-00050.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00051", "image_paths": ["images/B-public-00051_p01.jpg"], "ocr_path": "ocr/B-public-00051.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00052", "image_paths": ["images/B-public-00052_p01.jpg", "images/B-public-00052_p02.jpg"], "ocr_path": "ocr/B-public-00052.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00053", "image_paths": ["images/B-public-00053_p01.jpg", "images/B-public-00053_p02.jpg"], "ocr_path": "ocr/B-public-00053.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00054", "image_paths": ["images/B-public-00054_p01.jpg"], "ocr_path": "ocr/B-public-00054.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00055", "image_paths": ["images/B-public-00055_p01.jpg"], "ocr_path": "ocr/B-public-00055.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00056", "image_paths": ["images/B-public-00056_p01.jpg"], "ocr_path": "ocr/B-public-00056.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00057", "image_paths": ["images/B-public-00057_p01.jpg"], "ocr_path": "ocr/B-public-00057.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00058", "image_paths": ["images/B-public-00058_p01.jpg"], "ocr_path": "ocr/B-public-00058.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00059", "image_paths": ["images/B-public-00059_p01.jpg", "images/B-public-00059_p02.jpg"], "ocr_path": "ocr/B-public-00059.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00060", "image_paths": ["images/B-public-00060_p01.jpg", "images/B-public-00060_p02.jpg"], "ocr_path": "ocr/B-public-00060.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00061", "image_paths": ["images/B-public-00061_p01.jpg"], "ocr_path": "ocr/B-public-00061.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00062", "image_paths": ["images/B-public-00062_p01.jpg", "images/B-public-00062_p02.jpg"], "ocr_path": "ocr/B-public-00062.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00063", "image_paths": ["images/B-public-00063_p01.jpg"], "ocr_path": "ocr/B-public-00063.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00064", "image_paths": ["images/B-public-00064_p01.jpg"], "ocr_path": "ocr/B-public-00064.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00065", "image_paths": ["images/B-public-00065_p01.jpg"], "ocr_path": "ocr/B-public-00065.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00066", "image_paths": ["images/B-public-00066_p01.jpg"], "ocr_path": "ocr/B-public-00066.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00067", "image_paths": ["images/B-public-00067_p01.jpg", "images/B-public-00067_p02.jpg"], "ocr_path": "ocr/B-public-00067.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00068", "image_paths": ["images/B-public-00068_p01.jpg", "images/B-public-00068_p02.jpg"], "ocr_path": "ocr/B-public-00068.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00069", "image_paths": ["images/B-public-00069_p01.jpg", "images/B-public-00069_p02.jpg"], "ocr_path": "ocr/B-public-00069.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00070", "image_paths": ["images/B-public-00070_p01.jpg"], "ocr_path": "ocr/B-public-00070.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00071", "image_paths": ["images/B-public-00071_p01.jpg", "images/B-public-00071_p02.jpg"], "ocr_path": "ocr/B-public-00071.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00072", "image_paths": ["images/B-public-00072_p01.jpg", "images/B-public-00072_p02.jpg"], "ocr_path": "ocr/B-public-00072.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00073", "image_paths": ["images/B-public-00073_p01.jpg", "images/B-public-00073_p02.jpg"], "ocr_path": "ocr/B-public-00073.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00074", "image_paths": ["images/B-public-00074_p01.jpg"], "ocr_path": "ocr/B-public-00074.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00075", "image_paths": ["images/B-public-00075_p01.jpg"], "ocr_path": "ocr/B-public-00075.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00076", "image_paths": ["images/B-public-00076_p01.jpg", "images/B-public-00076_p02.jpg"], "ocr_path": "ocr/B-public-00076.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00077", "image_paths": ["images/B-public-00077_p01.jpg", "images/B-public-00077_p02.jpg"], "ocr_path": "ocr/B-public-00077.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00078", "image_paths": ["images/B-public-00078_p01.jpg", "images/B-public-00078_p02.jpg"], "ocr_path": "ocr/B-public-00078.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00079", "image_paths": ["images/B-public-00079_p01.jpg"], "ocr_path": "ocr/B-public-00079.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00080", "image_paths": ["images/B-public-00080_p01.jpg"], "ocr_path": "ocr/B-public-00080.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00081", "image_paths": ["images/B-public-00081_p01.jpg"], "ocr_path": "ocr/B-public-00081.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00082", "image_paths": ["images/B-public-00082_p01.jpg", "images/B-public-00082_p02.jpg"], "ocr_path": "ocr/B-public-00082.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00083", "image_paths": ["images/B-public-00083_p01.jpg"], "ocr_path": "ocr/B-public-00083.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00084", "image_paths": ["images/B-public-00084_p01.jpg", "images/B-public-00084_p02.jpg"], "ocr_path": "ocr/B-public-00084.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00085", "image_paths": ["images/B-public-00085_p01.jpg"], "ocr_path": "ocr/B-public-00085.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00086", "image_paths": ["images/B-public-00086_p01.jpg"], "ocr_path": "ocr/B-public-00086.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00087", "image_paths": ["images/B-public-00087_p01.jpg", "images/B-public-00087_p02.jpg"], "ocr_path": "ocr/B-public-00087.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00088", "image_paths": ["images/B-public-00088_p01.jpg"], "ocr_path": "ocr/B-public-00088.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00089", "image_paths": ["images/B-public-00089_p01.jpg", "images/B-public-00089_p02.jpg"], "ocr_path": "ocr/B-public-00089.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00090", "image_paths": ["images/B-public-00090_p01.jpg", "images/B-public-00090_p02.jpg"], "ocr_path": "ocr/B-public-00090.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00091", "image_paths": ["images/B-public-00091_p01.jpg", "images/B-public-00091_p02.jpg"], "ocr_path": "ocr/B-public-00091.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00092", "image_paths": ["images/B-public-00092_p01.jpg", "images/B-public-00092_p02.jpg"], "ocr_path": "ocr/B-public-00092.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00093", "image_paths": ["images/B-public-00093_p01.jpg", "images/B-public-00093_p02.jpg"], "ocr_path": "ocr/B-public-00093.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00094", "image_paths": ["images/B-public-00094_p01.jpg"], "ocr_path": "ocr/B-public-00094.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00095", "image_paths": ["images/B-public-00095_p01.jpg", "images/B-public-00095_p02.jpg"], "ocr_path": "ocr/B-public-00095.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00096", "image_paths": ["images/B-public-00096_p01.jpg", "images/B-public-00096_p02.jpg"], "ocr_path": "ocr/B-public-00096.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00097", "image_paths": ["images/B-public-00097_p01.jpg"], "ocr_path": "ocr/B-public-00097.json", "page_count": 1, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00098", "image_paths": ["images/B-public-00098_p01.jpg", "images/B-public-00098_p02.jpg"], "ocr_path": "ocr/B-public-00098.json", "page_count": 2, "question_count": 10, "split": "public_test"}
+{"id": "B-public-00099", "image_paths": ["images/B-public-00099_p01.jpg", "images/B-public-00099_p02.jpg"], "ocr_path": "ocr/B-public-00099.json", "page_count": 2, "question_count": 10, "split": "public_test"}

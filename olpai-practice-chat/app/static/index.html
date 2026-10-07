@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>OlpAI — Phòng luyện DeepSeek</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="/" aria-label="OlpAI"><span class="brand-icon">O</span>olpai<span class="brand-dot">.</span></a>
+    <div class="sidebar-caption">PHÒNG LUYỆN AI</div>
+    <button id="new-session" class="new-button"><span>＋</span> Phiên mới</button>
+    <label class="field-label" for="policy">Khi context đầy</label>
+    <select id="policy">
+      <option value="new_session">Yêu cầu phiên mới</option>
+      <option value="sliding_window">Bỏ cặp tin nhắn cũ</option>
+    </select>
+    <p class="policy-note">Áp dụng cho phiên mới. Cách xử lý của hệ thống thi cũ chưa được xác nhận.</p>
+    <div class="history-label">LỊCH SỬ PHIÊN</div>
+    <nav id="sessions" aria-label="Lịch sử phiên"></nav>
+    <div class="sidebar-bottom"><span class="small-led"></span> Search & tools đã tắt<br><span>Chỉ hỏi đáp bằng văn bản</span></div>
+  </aside>
+  <main>
+    <header class="topbar">
+      <div><div class="eyebrow">VOAI 2025 · MÔ PHỎNG LUYỆN TẬP</div><h1>Phòng luyện DeepSeek</h1></div>
+      <button id="export" class="quiet-button" title="Xuất lịch sử phiên">Xuất lịch sử ↗</button>
+    </header>
+    <section class="model-bar" aria-label="Cấu hình model">
+      <div class="model-avatar">DS</div>
+      <div class="model-info"><strong>R1 Distill Qwen <span>32B</span></strong><div id="provider-label">Cloudflare Workers AI</div></div>
+      <div class="status-group"><span id="connection" class="badge muted">Đang kiểm tra</span><button id="check-connection" class="text-button">Kiểm tra kết nối</button></div>
+    </section>
+    <section id="exam-panel" class="exam-panel">
+      <div><span class="eyebrow">CHẾ ĐỘ THI THỬ</span><p id="exam-description">6 giờ làm bài · AI hỗ trợ trong 5 giờ đầu</p></div>
+      <div class="exam-actions"><span id="exam-clock" class="clock" hidden>06:00:00</span><button id="start-exam" class="outline-button">Bắt đầu thi thử</button><button id="end-exam" class="outline-button" hidden>Kết thúc bài</button></div>
+    </section>
+    <div id="setup-notice" class="notice" role="status" hidden></div>
+    <section id="chat" class="chat" aria-label="Hội thoại">
+      <div id="welcome" class="welcome">
+        <div class="welcome-icon">⌘</div>
+        <div class="eyebrow">TƯ DUY · VIẾT CODE · PHÂN TÍCH LỖI</div>
+        <h2>Luyện cách giải bài,<br>cùng một trợ lý có giới hạn.</h2>
+        <p>Đưa đề bài, code hoặc kết quả validation vào chat.<br>Bạn tự chạy notebook và kiểm tra giải pháp.</p>
+        <div class="suggestions">
+          <button data-prompt="Giúp tôi lập kế hoạch xây baseline NLP. Hãy hỏi thông tin dữ liệu và metric cần thiết trước khi đề xuất mô hình."><span>01</span><strong>Phân tích đề bài</strong><small>Xác định dữ liệu, metric và baseline</small></button>
+          <button data-prompt="Tôi sẽ dán code và traceback. Hãy phân tích nguyên nhân lỗi trước khi đề xuất cách sửa."><span>02</span><strong>Gỡ lỗi notebook</strong><small>Phân tích lỗi và sửa từng bước</small></button>
+          <button data-prompt="Hãy giúp tôi kiểm tra rủi ro data leakage trong pipeline NLP. Tôi sẽ gửi cách chia tập và tiền xử lý."><span>03</span><strong>Kiểm tra pipeline</strong><small>Validation, leakage và tái hiện</small></button>
+        </div>
+      </div>
+      <div id="messages" aria-live="polite" aria-relevant="additions"></div>
+    </section>
+    <footer class="composer-wrap">
+      <div class="context-row"><span>CONTEXT <strong id="context-used">0 / 2.048</strong></span><span id="budget-detail">Gồm lịch sử, câu hỏi và phần sinh</span></div>
+      <progress id="context-meter" value="0" max="2048" aria-label="Context đã dùng"></progress>
+      <form id="composer" class="composer">
+        <label for="prompt" class="sr-only">Câu hỏi hoặc code</label>
+        <textarea id="prompt" rows="3" maxlength="20000" placeholder="Dán đề, code hoặc lỗi của bạn…" spellcheck="false"></textarea>
+        <div class="composer-bottom"><span id="composer-hint">Enter để gửi · Shift + Enter xuống dòng</span><button id="stop" type="button" class="outline-button" hidden>Dừng sinh</button><button id="send" type="submit" class="send-button">Gửi câu hỏi <span>↑</span></button></div>
+      </form>
+      <div class="footer-note"><span>Không search · Không tự chạy code · Không nhớ phiên khác</span><span id="usage-note">2K là cấu hình luyện tập</span></div>
+    </footer>
+  </main>
+  <div id="toast" role="alert" hidden></div>
+  <dialog id="exam-dialog">
+    <div class="eyebrow">SẴN SÀNG LUYỆN THI?</div><h2>Bắt đầu 6 giờ làm bài</h2>
+    <p>AI sẽ khóa sau 5 giờ, kể cả khi bạn reload hoặc tạo phiên mới. Một phiên chat mới sẽ được tạo cho bài thi.</p>
+    <p class="dialog-note">Mô phỏng các quy định đã biết của VOAI 2025. Context 2K và cách xử lý phiên đầy là cấu hình luyện tập.</p>
+    <div class="dialog-actions"><button id="cancel-exam" class="quiet-button">Để sau</button><button id="confirm-exam" class="send-button">Bắt đầu</button></div>
+  </dialog>
+  <dialog id="end-dialog"><h2>Kết thúc bài thi thử?</h2><p>Các phiên của bài này sẽ chuyển sang chỉ đọc. Bạn có thể tạo bài thi thử khác; lịch sử bài cũ vẫn được giữ.</p><div class="dialog-actions"><button id="cancel-end" class="quiet-button">Tiếp tục làm bài</button><button id="confirm-end" class="send-button">Kết thúc</button></div></dialog>
+</body>
+</html>
